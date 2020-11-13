@@ -1,2 +1,1 @@
-# Industrial AI Lab
-Open source of paper submitted
+# Industrial AI Lab Repository
