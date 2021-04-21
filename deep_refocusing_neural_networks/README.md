@@ -11,13 +11,13 @@ This project currently requires TensorFlow 1 available on Github: https://github
 
 In addition, please pip install the following packages:
 
-* tensorflow==1.14.0
-* matplotlib==3.2.1
-* numpy==1.17.0
+* tensorflow 1.14.0
+* matplotlib 3.2.1
+* numpy 1.17.0
 * glob
-* Pillow==6.1.0
-* scipy==1.2.1
-* sklearn==0.24.1
+* Pillow 6.1.0
+* scipy 1.2.1
+* sklearn 0.24.1
 
 # Networks
 
