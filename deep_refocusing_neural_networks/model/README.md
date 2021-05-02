@@ -1,1 +1,1 @@
-You can download pretrained model from Multi-scale Refocusing Network with Data Augmentation (demo).ipynb
+You can download the pretrained model from Multi-scale Refocusing Network with Data Augmentation (demo).ipynb
