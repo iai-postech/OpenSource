@@ -1,2 +1,0 @@
-model_checkpoint_path: "multi_scale_resnet_with_cutblur2.ckpt"
-all_model_checkpoint_paths: "multi_scale_resnet_with_cutblur2.ckpt"
