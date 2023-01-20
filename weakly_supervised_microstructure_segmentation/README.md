@@ -9,6 +9,14 @@ Microstructure segmentation, which is used to extract statistical description of
 # Dependencies
 This project currently requires the following packages:
 
+* torch 1.12.0
+* matplotlib 3.5.2
+* numpy 1.23.1
+* glob
+* Pillow 9.2.0
+* opencv-python 4.6.0.66 
+* skimage 0.19.3
+
 # Networks
 We utilize fully convolutional networks as the backbone model, which extracts the feature vector from each pixel and then classifies it into one of several semantic classes. The networks have the following layers in order: four convolutional modules, a $1 \times 1$ convolutional layer, and a batch normalization layer. Each convolutional module consists of a $3 \times 3$ convolutional layer, rectified linear unit (ReLU) activation function, and a batch normalization layer.
 
