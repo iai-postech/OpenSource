@@ -10,6 +10,7 @@ Microstructure segmentation, which is used to extract statistical description of
 This project currently requires the following packages:
 
 # Networks
+We utilize fully convolutional networks as the backbone model, which extracts the feature vector from each pixel and then classifies it into one of several semantic classes. The networks have the following layers in order: four convolutional modules, a $1 \times 1$ convolutional layer, and a batch normalization layer. Each convolutional module consists of a $3 \times 3$ convolutional layer, rectified linear unit (ReLU) activation function, and a batch normalization layer.
 
 # Note
 Code for academic purpose only
