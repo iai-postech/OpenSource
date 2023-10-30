@@ -9,16 +9,21 @@ Grain boundaries play an important role in governing the mechanical and physical
 # Dependencies
 This project currently requires the following packages:
 
-* torch 1.12.0
+* torch 1.10.1+cu102
 * matplotlib 3.5.2
-* numpy 1.23.1
+* numpy 1.20.3
 * glob
-* Pillow 9.2.0
-* opencv-python 4.6.0.66 
-* skimage 0.19.3
+* Pillow 9.1.1
+* opencv-python 4.1.2.30
+* skimage 0.19.2
+* albumentations 1.1.0
 
 # Networks
-We utilize fully convolutional networks as the backbone model, which extracts the feature vector from each pixel and then classifies it into one of several semantic classes. The networks have the following layers in order: four convolutional modules, a $1 \times 1$ convolutional layer, and a batch normalization layer. Each convolutional module consists of a $3 \times 3$ convolutional layer, rectified linear unit (ReLU) activation function, and a batch normalization layer.
+We utilize Cycle-consistent Generative Adversarial Networks (CycleGAN) for the backbone of our networks. If you would like to generate white clean images, please use white_normal in GrainboundaryDetection.ipynb. On the other hand, if you would like to generate black clean images, please use black_normal in GrainboundaryDetection.ipynb.
+
+# Scripts
+
+Please write with own your directory in Path.json file and uploade your optical microscopy image in data_files/trainA. There are two types of images: black and white virtual images. 
 
 # Note
 Code for academic purpose only
