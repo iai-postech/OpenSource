@@ -19,7 +19,7 @@ This project currently requires the following packages:
 * albumentations 1.1.0
 
 # Networks
-We utilize Cycle-consistent Generative Adversarial Networks (CycleGAN) for the backbone of our networks. If you would like to generate white clean images, please use white_normal in GrainboundaryDetection.ipynb. On the other hand, if you would like to generate black clean images, please use black_normal in GrainboundaryDetection.ipynb.
+We utilize Cycle-consistent Generative Adversarial Networks (CycleGAN) for the backbone of our networks.
 
 # Scripts
 
