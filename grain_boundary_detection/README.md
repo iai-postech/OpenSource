@@ -23,7 +23,9 @@ We utilize Cycle-consistent Generative Adversarial Networks (CycleGAN) for the b
 
 # Scripts
 
-Please write with own your directory in Path.json file and uploade your optical microscopy image in data_files/trainA. There are two types of images: black and white virtual images. 
+Please write with own your directory in Path.json file and uploade your optical microscopy image in data_files/trainA. There are two types of images: black and white virtual images.
+If you want to generate white clean image, please write white_normal in GrainboundaryDetection.ipynb 
+If you want to generate black clean image, please write black_normal in GrainboundaryDetection.ipynb 
 
 # Note
 Code for academic purpose only
